@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		F3BEAA1F2B38989100A05E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA1E2B38989100A05E68 /* AppDelegate.swift */; };
 		F3BEAA212B38989100A05E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA202B38989100A05E68 /* SceneDelegate.swift */; };
-		F3BEAA232B38989100A05E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA222B38989100A05E68 /* ViewController.swift */; };
+		F3BEAA232B38989100A05E68 /* userSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA222B38989100A05E68 /* userSettingViewController.swift */; };
 		F3BEAA262B38989100A05E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BEAA242B38989100A05E68 /* Main.storyboard */; };
 		F3BEAA282B38989200A05E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BEAA272B38989200A05E68 /* Assets.xcassets */; };
 		F3BEAA2B2B38989200A05E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BEAA292B38989200A05E68 /* LaunchScreen.storyboard */; };
+		F3BEAA332B38A19900A05E68 /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA322B38A19900A05E68 /* LocationSelectionViewController.swift */; };
+		F3BEAA352B38ABF900A05E68 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEAA342B38ABF900A05E68 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3BEAA1B2B38989100A05E68 /* phw11-1-userSettingController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phw11-1-userSettingController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BEAA1E2B38989100A05E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BEAA202B38989100A05E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3BEAA222B38989100A05E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3BEAA222B38989100A05E68 /* userSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSettingViewController.swift; sourceTree = "<group>"; };
 		F3BEAA252B38989100A05E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3BEAA272B38989200A05E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3BEAA2A2B38989200A05E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3BEAA2C2B38989200A05E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEAA322B38A19900A05E68 /* LocationSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewController.swift; sourceTree = "<group>"; };
+		F3BEAA342B38ABF900A05E68 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				F3BEAA1E2B38989100A05E68 /* AppDelegate.swift */,
 				F3BEAA202B38989100A05E68 /* SceneDelegate.swift */,
-				F3BEAA222B38989100A05E68 /* ViewController.swift */,
+				F3BEAA222B38989100A05E68 /* userSettingViewController.swift */,
 				F3BEAA242B38989100A05E68 /* Main.storyboard */,
 				F3BEAA272B38989200A05E68 /* Assets.xcassets */,
 				F3BEAA292B38989200A05E68 /* LaunchScreen.storyboard */,
 				F3BEAA2C2B38989200A05E68 /* Info.plist */,
+				F3BEAA322B38A19900A05E68 /* LocationSelectionViewController.swift */,
+				F3BEAA342B38ABF900A05E68 /* MapViewController.swift */,
 			);
 			path = "phw11-1-userSettingController";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BEAA232B38989100A05E68 /* ViewController.swift in Sources */,
+				F3BEAA232B38989100A05E68 /* userSettingViewController.swift in Sources */,
 				F3BEAA1F2B38989100A05E68 /* AppDelegate.swift in Sources */,
+				F3BEAA332B38A19900A05E68 /* LocationSelectionViewController.swift in Sources */,
+				F3BEAA352B38ABF900A05E68 /* MapViewController.swift in Sources */,
 				F3BEAA212B38989100A05E68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
